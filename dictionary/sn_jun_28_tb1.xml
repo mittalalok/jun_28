@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="tb1" max_length="40" name="sn_jun_28_tb1" type="collection">
-        
-    </element>
+        </element>
 </database>
