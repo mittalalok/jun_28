@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="tb1" max_length="40" name="sn_jun_28_tb1" type="collection">
         <element label="COL1" max_length="10" name="col1" type="string"/>
+        <element label="COL2" max_length="20" name="col2" type="string"/>
         <element choice="1" label="MYCHOICE" max_length="10" name="mychoice" type="choice">
             <choice/>
         </element>
         <element choice="1" label="OTHERCHOICE" max_length="20" name="otherchoice" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="CH3" value="ch3"/>
-                <element inactive_on_update="false" label="CH4" value="ch3"/>
-            </choice>
+            <choice/>
         </element>
     </element>
 </database>
